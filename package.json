@@ -1,0 +1,15 @@
+{
+  "name": "employees",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "faker": "^3.1.0",
+    "lodash": "^4.17.21",
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^15.7.0",
+    "react-addons-pure-render-mixin": "^15.6.3",
+    "react-dom": "^15.7.0"
+  }
+}
