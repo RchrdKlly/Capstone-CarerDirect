@@ -1,0 +1,31 @@
+.employee-list::before{
+  display: none
+}
+.employee-list {
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+}
+.employee-list::after{
+  content: '';
+  width: 300px
+}
+
+.thumbnail {
+  width: 300px;
+  background-color: darkgray;
+  border-radius: 18px;
+}
+
+.image {
+  width: 300px;
+}
+
+.list-group {
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.text {
+  font-weight: bold;
+}
